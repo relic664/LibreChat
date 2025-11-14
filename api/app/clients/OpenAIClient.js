@@ -1162,6 +1162,12 @@ class OpenAIClient extends BaseClient {
         return this.getStreamText();
       }
 
+      // Handle reasoning_content from non-streaming responses
+      if (message.reasoning_content && this.options.context !== 'title') {
+        const reasoningText = message.reasoning_content.trim();
+        return `:::thinking\n${reasoningText}\n:::\n${message.content}`;
+      }
+
       return message.content;
     } catch (err) {
       if (
