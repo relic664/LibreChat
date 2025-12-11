@@ -407,18 +407,27 @@ endpoints:
 #   # Jina Reranking Configuration
 #   jinaApiKey: '${JINA_API_KEY}'  # Your Jina API key
 #   jinaApiUrl: '${JINA_API_URL}'  # Custom Jina API URL (optional, defaults to https://api.jina.ai/v1/rerank)
-#   
+#
 #   # Other rerankers
 #   cohereApiKey: '${COHERE_API_KEY}'
-#   
+#
 #   # Search providers
+#   searchProvider: 'searxng'  # Options: 'serper' or 'searxng'
 #   serperApiKey: '${SERPER_API_KEY}'
 #   searxngInstanceUrl: '${SEARXNG_INSTANCE_URL}'
 #   searxngApiKey: '${SEARXNG_API_KEY}'
-#   
+#
 #   # Content scrapers
+#   scraperProvider: 'crawl4ai'  # Options: 'firecrawl', 'serper', or 'crawl4ai'
 #   firecrawlApiKey: '${FIRECRAWL_API_KEY}'
 #   firecrawlApiUrl: '${FIRECRAWL_API_URL}'
+#   # Crawl4AI Configuration
+#   crawl4aiApiKey: '${CRAWL4AI_API_KEY}'  # Optional - works without API key for public deployments
+#   crawl4aiApiUrl: '${CRAWL4AI_API_URL}'  # Default: http://localhost:11235
+#   crawl4aiOptions:
+#     extractionStrategy: 'cosine'  # Optional: extraction strategy (e.g., 'cosine', 'llm')
+#     chunkingStrategy: 'sliding_window'  # Optional: chunking strategy
+#     timeout: 10000  # Optional: timeout in milliseconds
 
 # Memory configuration for user memories
 # memory:

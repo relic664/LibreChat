@@ -154,5 +154,8 @@
       "admin/",
       "packages/"
     ]
+  },
+  "dependencies": {
+    "@librechat/agents": "file:librechat-agents-3.0.13.tgz"
   }
 }
