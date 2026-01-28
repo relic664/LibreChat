@@ -153,7 +153,7 @@ export default function ApiKeyDialog({
       },
     },
     {
-      key: SearchProviders.CRAWL4AI,
+      key: ScraperProviders.CRAWL4AI,
       label: localize('com_ui_web_search_provider_crawl4ai'),
       inputs: {
         crawl4aiApiUrl: {
