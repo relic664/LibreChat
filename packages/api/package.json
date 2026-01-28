@@ -88,7 +88,7 @@
     "@langchain/core": "^0.3.80",
     "@librechat/agents": "github:relic664/agents#00e5245aca3df0fc7c50d9ca0e71767c92e41978",
     "@librechat/data-schemas": "*",
-    "@modelcontextprotocol/sdk": "^1.25.2",
+    "@modelcontextprotocol/sdk": "^1.25.3",
     "@smithy/node-http-handler": "^4.4.5",
     "axios": "^1.12.1",
     "connect-redis": "^8.1.0",
