@@ -86,7 +86,7 @@
     "@google/genai": "^1.19.0",
     "@keyv/redis": "^4.3.3",
     "@langchain/core": "^0.3.80",
-    "@librechat/agents": "github:relic664/agents#224235d2af57043b2ba46bc4c9bd36cfbea26070",
+    "@librechat/agents": "github:relic664/agents#0ef846a4dc338230f36bcbb791daec9dbae0c474",
     "@librechat/data-schemas": "*",
     "@modelcontextprotocol/sdk": "^1.25.3",
     "@smithy/node-http-handler": "^4.4.5",
