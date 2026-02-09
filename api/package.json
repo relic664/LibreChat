@@ -34,8 +34,7 @@
   },
   "homepage": "https://librechat.ai",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.71.0",
-    "@anthropic-ai/vertex-sdk": "^0.14.0",
+    "@anthropic-ai/vertex-sdk": "^0.14.3",
     "@aws-sdk/client-bedrock-runtime": "^3.980.0",
     "@aws-sdk/client-s3": "^3.980.0",
     "@aws-sdk/s3-request-presigner": "^3.758.0",
@@ -45,7 +44,7 @@
     "@google/genai": "^1.19.0",
     "@keyv/redis": "^4.3.3",
     "@langchain/core": "^0.3.80",
-    "@librechat/agents": "github:relic664/agents#0ef846a4dc338230f36bcbb791daec9dbae0c474",
+    "@librechat/agents": "github:relic664/agents#9a5eef232b768633736f627bacf07b94ac2fc1d6",
     "@librechat/api": "*",
     "@librechat/data-schemas": "*",
     "@microsoft/microsoft-graph-client": "^3.0.7",
